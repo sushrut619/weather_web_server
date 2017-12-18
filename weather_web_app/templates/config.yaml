@@ -1,0 +1,12 @@
+port: 8080
+
+dark_sky_secret_key: dark_sky_secret_key
+
+dark_sky_url_template: https://api.darksky.net/forecast/{0}/{1},{2}?units=si
+
+log_file_path: D:\\sushr\\Documents\\python\\weather_web_app\\logs\\weather_web_app.log
+app_logger: weather_web_app_logger
+console_log_level: debug
+file_log_level: info
+
+src_location: D:/sushr/Documents/React/weather-app/build/

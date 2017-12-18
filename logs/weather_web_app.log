@@ -1,0 +1,201 @@
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:22:06] ENGINE Bus STARTING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:22:06] ENGINE Started monitor thread 'Autoreloader'.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:22:06] ENGINE Serving on http://0.0.0.0:8080
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:22:06] ENGINE Bus STARTED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE Restarting because D:\sushr\Documents\python\weather_web_app\weather_web_app\__main__.py changed.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE Stopped thread 'Autoreloader'.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE Bus STOPPING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE Bus STOPPED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE Bus EXITING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE Keyboard Interrupt: shutting down bus
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE Bus EXITED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE Bus STOPPING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) already shut down
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE No thread running for None.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE Bus STOPPED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE Bus EXITING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE Bus EXITED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE Waiting for child threads to terminate...
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE Re-spawning D:\Python36\Envs\weather_web_app\Scripts\python.exe weather_web_app config.yaml
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE Bus STARTING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:05] ENGINE Started monitor thread 'Autoreloader'.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:06] ENGINE Serving on http://0.0.0.0:8080
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:06] ENGINE Bus STARTED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:09] ENGINE Restarting because D:\sushr\Documents\python\weather_web_app\weather_web_app\__main__.py changed.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:09] ENGINE Stopped thread 'Autoreloader'.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:09] ENGINE Bus STOPPING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:09] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:09] ENGINE Bus STOPPED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:09] ENGINE Bus EXITING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:09] ENGINE Waiting for child threads to terminate...
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:09] ENGINE Bus EXITED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:09] ENGINE Re-spawning D:\Python36\Envs\weather_web_app\Scripts\python.exe weather_web_app config.yaml
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:10] ENGINE Bus STARTING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:10] ENGINE Started monitor thread 'Autoreloader'.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:10] ENGINE Serving on http://0.0.0.0:8080
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:10] ENGINE Bus STARTED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:55] ENGINE Bus STARTING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:55] ENGINE Started monitor thread 'Autoreloader'.
+ERROR : _cplogging.py : error : 223 : [17/Dec/2017:16:23:56] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x067C2210>>
+Traceback (most recent call last):
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cherrypy\process\wspbus.py", line 230, in publish
+    output.append(listener(*args, **kwargs))
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cherrypy\_cpserver.py", line 173, in start
+    super(Server, self).start()
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cherrypy\process\servers.py", line 177, in start
+    portend.free(*self.bind_addr, timeout=Timeouts.free)
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\portend.py", line 119, in free
+    raise Timeout("Port {port} not free on {host}.".format(**locals()))
+portend.Timeout: Port 8080 not free on 0.0.0.0.
+
+ERROR : _cplogging.py : error : 223 : [17/Dec/2017:16:23:56] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cherrypy\process\wspbus.py", line 268, in start
+    self.publish('start')
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cherrypy\process\wspbus.py", line 248, in publish
+    raise exc
+cherrypy.process.wspbus.ChannelFailures: Timeout('Port 8080 not free on 0.0.0.0.',)
+
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:56] ENGINE Bus STOPPING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:56] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) already shut down
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:56] ENGINE Stopped thread 'Autoreloader'.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:56] ENGINE Bus STOPPED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:56] ENGINE Bus EXITING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:23:56] ENGINE Bus EXITED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:24:05] ENGINE Bus STARTING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:24:05] ENGINE Started monitor thread 'Autoreloader'.
+ERROR : _cplogging.py : error : 223 : [17/Dec/2017:16:24:06] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x05CFCA50>>
+Traceback (most recent call last):
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cherrypy\process\wspbus.py", line 230, in publish
+    output.append(listener(*args, **kwargs))
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cherrypy\_cpserver.py", line 173, in start
+    super(Server, self).start()
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cherrypy\process\servers.py", line 177, in start
+    portend.free(*self.bind_addr, timeout=Timeouts.free)
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\portend.py", line 119, in free
+    raise Timeout("Port {port} not free on {host}.".format(**locals()))
+portend.Timeout: Port 8080 not free on 0.0.0.0.
+
+ERROR : _cplogging.py : error : 223 : [17/Dec/2017:16:24:06] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cherrypy\process\wspbus.py", line 268, in start
+    self.publish('start')
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cherrypy\process\wspbus.py", line 248, in publish
+    raise exc
+cherrypy.process.wspbus.ChannelFailures: Timeout('Port 8080 not free on 0.0.0.0.',)
+
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:24:06] ENGINE Bus STOPPING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:24:06] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) already shut down
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:24:06] ENGINE Stopped thread 'Autoreloader'.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:24:06] ENGINE Bus STOPPED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:24:06] ENGINE Bus EXITING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:24:06] ENGINE Bus EXITED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:24:57] ENGINE Bus STARTING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:24:57] ENGINE Started monitor thread 'Autoreloader'.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:24:57] ENGINE Serving on http://0.0.0.0:8889
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:24:57] ENGINE Bus STARTED
+ERROR : _cplogging.py : error : 223 : [17/Dec/2017:16:26:54] ENGINE TypeError("build_map() missing 1 required positional argument: 'self'",)
+Traceback (most recent call last):
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cheroot\server.py", line 1152, in communicate
+    req.respond()
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cheroot\server.py", line 974, in respond
+    self.server.gateway(self).respond()
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cheroot\wsgi.py", line 131, in respond
+    response = self.req.server.wsgi_app(self.env, self.start_response)
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cherrypy\_cptree.py", line 297, in __call__
+    return app(environ, start_response)
+  File "D:\sushr\Documents\python\weather_web_app\weather_web_app\app\router.py", line 14, in serve
+    url_map = build_map()
+TypeError: build_map() missing 1 required positional argument: 'self'
+
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:26] ENGINE Restarting because D:\sushr\Documents\python\weather_web_app\weather_web_app\app\router.py changed.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:26] ENGINE Stopped thread 'Autoreloader'.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:26] ENGINE Bus STOPPING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:26] ENGINE Restarting because D:\sushr\Documents\python\weather_web_app\weather_web_app\app\router.py changed.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:26] ENGINE Stopped thread 'Autoreloader'.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:26] ENGINE Bus STOPPING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:26] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:26] ENGINE Bus STOPPED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:26] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8889)) shut down
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:26] ENGINE Bus EXITING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:26] ENGINE Bus STOPPED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:26] ENGINE Keyboard Interrupt: shutting down bus
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:26] ENGINE Bus EXITING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:26] ENGINE Bus EXITED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:26] ENGINE Waiting for child threads to terminate...
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:26] ENGINE Bus STOPPING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:26] ENGINE Bus EXITED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:27] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) already shut down
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:27] ENGINE Re-spawning D:\Python36\Envs\weather_web_app\Scripts\python.exe weather_web_app config.yaml
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:27] ENGINE No thread running for None.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:27] ENGINE Bus STOPPED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:27] ENGINE Bus EXITING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:27] ENGINE Bus EXITED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:27] ENGINE Waiting for child threads to terminate...
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:27] ENGINE Re-spawning D:\Python36\Envs\weather_web_app\Scripts\python.exe weather_web_app config.yaml
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:27] ENGINE Bus STARTING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:27] ENGINE Bus STARTING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:28] ENGINE Started monitor thread 'Autoreloader'.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:28] ENGINE Started monitor thread 'Autoreloader'.
+ERROR : _cplogging.py : error : 223 : [17/Dec/2017:16:27:28] ENGINE Error in HTTP server: shutting down
+Traceback (most recent call last):
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cherrypy\process\servers.py", line 225, in _start_http_thread
+    self.httpserver.start()
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cheroot\server.py", line 1525, in start
+    raise socket.error(msg)
+OSError: No socket could be created -- (('0.0.0.0', 8889): [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted)
+
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:28] ENGINE Bus STOPPING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:28] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8889)) already shut down
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:28] ENGINE Stopped thread 'Autoreloader'.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:28] ENGINE Bus STOPPED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:28] ENGINE Bus EXITING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:28] ENGINE Serving on http://0.0.0.0:8889
+ERROR : _cplogging.py : error : 223 : [17/Dec/2017:16:27:28] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x05FCCA50>>
+Traceback (most recent call last):
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cherrypy\process\wspbus.py", line 230, in publish
+    output.append(listener(*args, **kwargs))
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cherrypy\_cpserver.py", line 173, in start
+    super(Server, self).start()
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cherrypy\process\servers.py", line 184, in start
+    self.wait()
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cherrypy\process\servers.py", line 246, in wait
+    raise self.interrupt
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cherrypy\process\servers.py", line 225, in _start_http_thread
+    self.httpserver.start()
+  File "D:\Python36\Envs\weather_web_app\lib\site-packages\cheroot\server.py", line 1525, in start
+    raise socket.error(msg)
+OSError: No socket could be created -- (('0.0.0.0', 8889): [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted)
+
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:28] ENGINE Bus STARTED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:28] ENGINE Bus EXITED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:36] ENGINE Restarting because D:\sushr\Documents\python\weather_web_app\weather_web_app\app\router.py changed.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:36] ENGINE Stopped thread 'Autoreloader'.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:36] ENGINE Bus STOPPING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:36] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8889)) shut down
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:36] ENGINE Bus STOPPED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:36] ENGINE Bus EXITING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:36] ENGINE Waiting for child threads to terminate...
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:36] ENGINE Bus EXITED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:36] ENGINE Re-spawning D:\Python36\Envs\weather_web_app\Scripts\python.exe weather_web_app config.yaml
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:37] ENGINE Bus STARTING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:37] ENGINE Started monitor thread 'Autoreloader'.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:37] ENGINE Serving on http://0.0.0.0:8889
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:27:37] ENGINE Bus STARTED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:30:30] ENGINE Restarting because D:\sushr\Documents\python\weather_web_app\weather_web_app\__main__.py changed.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:30:30] ENGINE Stopped thread 'Autoreloader'.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:30:30] ENGINE Bus STOPPING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:30:30] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8889)) shut down
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:30:30] ENGINE Bus STOPPED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:30:30] ENGINE Bus EXITING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:30:30] ENGINE Keyboard Interrupt: shutting down bus
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:30:30] ENGINE Bus EXITED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:30:30] ENGINE Bus STOPPING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:30:30] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8889)) already shut down
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:30:30] ENGINE No thread running for None.
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:30:30] ENGINE Bus STOPPED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:30:31] ENGINE Bus EXITING
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:30:31] ENGINE Bus EXITED
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:30:31] ENGINE Waiting for child threads to terminate...
+INFO : _cplogging.py : error : 223 : [17/Dec/2017:16:30:31] ENGINE Re-spawning D:\Python36\Envs\weather_web_app\Scripts\python.exe weather_web_app config.yaml
