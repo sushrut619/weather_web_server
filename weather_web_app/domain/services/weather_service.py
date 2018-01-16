@@ -20,8 +20,8 @@ class WeatherService:
             api_request_model = self.weather_service_factory.get_coordinates_from_address(request_model.address, self.config)
             print("fetching weather data from address")
 
-        else:
-            api_request_model = None
+            else:
+                api_request_model = None
 
         weather_data = None
         if api_request_model is not None:
@@ -29,6 +29,7 @@ class WeatherService:
             if request_model.language_flag == True:
                 self.to_fahrenheit(weather_data)
 
+        print("response: ", weather_data)
         return weather_data
 
     def to_fahrenheit(self, weather_data):
