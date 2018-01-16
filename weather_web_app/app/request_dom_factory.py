@@ -19,7 +19,13 @@ class RequestDomFactory:
         return result
 
     def get_http_headers(self, environ):
-        return dict((key[5:].lower(), environ[key]) for key in environ if key.startswith("HTTP_"))
+        result = dict((key[5:].lower(), environ[key]) for key in environ if key.startswith("HTTP_"))
+        if "Accept-Language" in environ:
+            result['language'] = environ['Accept-Language']
+        else:
+            result['language'] = None
+
+        return result
 
     def get_query_string(self, environ):
         result = dict([

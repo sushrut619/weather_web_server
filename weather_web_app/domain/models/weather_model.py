@@ -4,8 +4,10 @@ from pyrecord import Record
 WeatherRequestModel = Record.create_type("WeatherRequestModel",
     "latitude",
     "longitude",
+    "language_flag"
     latitude=None,
-    longitude=None)
+    longitude=None,
+    language_flag=None)
 
 WeatherResponseModel = Record.create_type("WeatherResponseModel",
     "current_temp",
