@@ -1,5 +1,7 @@
 from weather_web_app.domain.models.dark_sky_api_model import DarkSkyRequest
 import googlemaps
+from datetime import datetime
+from pprint import pprint
 
 class WeatherServiceFactory:
     def build_dark_sky_api_model(self, model):
