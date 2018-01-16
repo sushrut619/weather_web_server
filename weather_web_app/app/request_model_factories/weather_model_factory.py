@@ -10,5 +10,5 @@ class WeatherModelFactory:
         return WeatherRequestModel(
             latitude=query.get("latitude"),
             longitude=query.get("longitude"),
-            language_flag = True if (headers['language'] is not None and if headers['language'] in ["en", "en_US"]) else False
+            language_flag = True if (headers['language'] is not None and headers['language'] in ["en", "en_US"]) else False
         )
