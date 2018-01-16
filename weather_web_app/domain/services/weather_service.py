@@ -15,7 +15,7 @@ class WeatherService:
             api_request_model = self.weather_service_factory.build_dark_sky_api_model(request_model)
 
         elif request_model.address is not None and len(request_model.address) > 0:
-            api_request_model = self.weather_service_factory.get_coorinates_from_address(request_model.address, self.config)
+            api_request_model = self.weather_service_factory.get_coordinates_from_address(request_model.address, self.config)
 
         else:
             api_request_model = None
