@@ -27,6 +27,6 @@ class WeatherService:
         print(weather_data.min_temps)
         for i in range(7):
             weather_data.min_temps[i] = weather_data.min_temps[i] * 1.8 + 32
-            weather_data.max_temps[i] = weather_data[i].max_temps[i] * 1.8 + 32
+            weather_data.max_temps[i] = weather_data.max_temps[i] * 1.8 + 32
         print(weather_data.min_temps)
         return
