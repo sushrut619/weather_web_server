@@ -22,7 +22,7 @@ class RequestDomFactory:
         print(environ)
         result = dict((key[5:].lower(), environ[key]) for key in environ if key.startswith("HTTP_"))
         if "Accept-Language" in environ or "HTTP_ACCEPT_LANGUAGE" in environ:
-            result['language'] = environ['Accept-Language']
+            result['language'] = environ['HTTP_ACCEPT_LANGUAGE']
         else:
             result['language'] = None
 
