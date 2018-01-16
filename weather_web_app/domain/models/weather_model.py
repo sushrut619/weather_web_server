@@ -4,7 +4,7 @@ from pyrecord import Record
 WeatherRequestModel = Record.create_type("WeatherRequestModel",
     "latitude",
     "longitude",
-    "language_flag"
+    "language_flag",
     latitude=None,
     longitude=None,
     language_flag=None)
