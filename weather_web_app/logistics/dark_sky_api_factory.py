@@ -44,6 +44,7 @@ class DarkSkyApiFactory:
                 min_temps=min_temps,
                 max_temps=max_temps,
                 time=weather_data['daily']['data'][1]['time'],
+                units="C",
                 wind_speeds=wind_speeds
             )
         else:

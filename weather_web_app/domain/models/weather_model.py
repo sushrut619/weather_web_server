@@ -2,9 +2,11 @@
 from pyrecord import Record
 
 WeatherRequestModel = Record.create_type("WeatherRequestModel",
+    "address"
     "latitude",
     "longitude",
     "language_flag",
+    address=None,
     latitude=None,
     longitude=None,
     language_flag=None)
@@ -16,6 +18,7 @@ WeatherResponseModel = Record.create_type("WeatherResponseModel",
     "min_temps",
     "max_temps",
     "time",
+    "units",
     "wind_speeds",
     current_temp=None,
     latitude=None,
@@ -23,4 +26,5 @@ WeatherResponseModel = Record.create_type("WeatherResponseModel",
     min_temps=None,
     max_temps=None,
     time=None,
+    units=None,
     wind_speeds=None)
