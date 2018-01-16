@@ -23,7 +23,7 @@ cherrypy.engine.signals.subscribe()
 server = cherrypy._cpserver.Server()
 
 port = config.get('port') or 8080
-thread_pool = config.get('thread_pool') or 4
+thread_pool = config.get('thread_pool') or 8
 
 #configure the server object
 server.socket_host = "0.0.0.0"
