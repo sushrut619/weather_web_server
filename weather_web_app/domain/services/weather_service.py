@@ -39,4 +39,5 @@ class WeatherService:
 
         weather_data.units = "F"
         print(weather_data.min_temps)
+        print(weather_data.current_temp)
         return
