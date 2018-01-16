@@ -20,13 +20,13 @@ class WeatherService:
         else:
             api_request_model = None
 
-        result = None
+        weather_data = None
         if api_request_model is not None:
             weather_data = self.api_factory.get_weekly_forecast(api_request_model)
             if request_model.language_flag == True:
                 self.to_fahrenheit(weather_data)
 
-        return result
+        return weather_data
 
     def to_fahrenheit(self, weather_data):
         print("before conversion:")
