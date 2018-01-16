@@ -3,6 +3,7 @@ certifi==2017.11.5
 chardet==3.0.4
 cheroot==6.0.0
 CherryPy==13.1.0
+googlemaps==2.5.1
 idna==2.6
 more-itertools==4.0.1
 portend==2.2
