@@ -12,16 +12,14 @@ class WeatherService:
         print("request model:", request_model)
         valid_coordinates = self.validation_factory.validate_coordinates(self.logger, request_model)
 
+        api_request_model = None
         if valid_coordinates:
             api_request_model = self.weather_service_factory.build_dark_sky_api_model(request_model)
             print("fetching weather data from coordinates")
-
+            
         elif request_model.address is not None and len(request_model.address) > 0:
             api_request_model = self.weather_service_factory.get_coordinates_from_address(request_model.address, self.config)
             print("fetching weather data from address")
-
-            else:
-                api_request_model = None
 
         weather_data = None
         if api_request_model is not None:
