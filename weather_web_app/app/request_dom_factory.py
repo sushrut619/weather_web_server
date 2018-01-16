@@ -21,7 +21,7 @@ class RequestDomFactory:
     def get_http_headers(self, environ):
         print(environ)
         result = dict((key[5:].lower(), environ[key]) for key in environ if key.startswith("HTTP_"))
-        if "Accept-Language" in environ:
+        if "Accept-Language" in environ or "HTTP_ACCEPT_LANGUAGE" in environ:
             result['language'] = environ['Accept-Language']
         else:
             result['language'] = None
