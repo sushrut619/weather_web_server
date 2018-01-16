@@ -31,10 +31,12 @@ class WeatherService:
     def to_fahrenheit(self, weather_data):
         print("before conversion:")
         print(weather_data.min_temps)
+        print(weather_data.current_temp)
         for i in range(7):
             weather_data.min_temps[i] = weather_data.min_temps[i] * 1.8 + 32
             weather_data.max_temps[i] = weather_data.max_temps[i] * 1.8 + 32
             weather_data.current_temp = int(weather_data.current_temp) * 1.8 + 32
+
         weather_data.units = "F"
         print(weather_data.min_temps)
         return
