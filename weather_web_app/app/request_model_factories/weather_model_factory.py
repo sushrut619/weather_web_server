@@ -8,6 +8,7 @@ class WeatherModelFactory:
         headers = request_dom["headers"]
         query = request_dom["query"]
 
+        print("language header: ", headers.get('language'))
         return WeatherRequestModel(
             address=query.get("address"),
             latitude=query.get("latitude"),
